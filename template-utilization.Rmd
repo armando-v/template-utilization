@@ -730,12 +730,12 @@ ________________________________________________________________________________
 
 
 # Table Output -----------------------------------------------------------------
-htmltools::browsable(
-  tagList(
-    tags$button(
-      tagList(fontawesome::fa("download"), "Download Table"),
-      onclick = "Reactable.downloadDataCSV('util-download-table', 'Template Utilization')"
-    ),
+# htmltools::browsable(
+#   tagList(
+#     tags$button(
+#       tagList(fontawesome::fa("download"), "Download Table"),
+#       onclick = "Reactable.downloadDataCSV('util-download-table', 'Template Utilization')"
+#     ),
 
 # htmltools::browsable(
 #   tagList(
@@ -1124,8 +1124,8 @@ reactable(
 
   ) # Close Reactable
 
- )
-)
+#  ) # Close tagList
+# ) # Close htmltools
 
 
 ```
@@ -3051,12 +3051,12 @@ reactable(
 
 
 # Table Output -----------------------------------------------------------------
-htmltools::browsable(
-  tagList(
-    tags$button(
-      tagList(fontawesome::fa("download"), "Download Table"),
-      onclick = "Reactable.downloadDataCSV('unused-download-table', 'Unused Templates')"
-    ),
+# htmltools::browsable(
+#   tagList(
+#     tags$button(
+#       tagList(fontawesome::fa("download"), "Download Table"),
+#       onclick = "Reactable.downloadDataCSV('unused-download-table', 'Unused Templates')"
+#     ),
 
 # htmltools::browsable(
 #   tagList(
@@ -3153,8 +3153,8 @@ reactable(
 
   ) # Close Reactable
 
- )
-)
+#  ) # Close tagList
+# ) # Close htmltools
 
 
 
